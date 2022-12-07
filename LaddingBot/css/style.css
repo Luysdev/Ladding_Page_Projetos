@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* { 
+    margin: 0;
+    padding: 0;
+     /* border: 1px solid black;  */
+     border: 1px solid black;
+}
+
+body {
+    background-image: linear-gradient(to right, #302325, #8F5D52 );
+}
+
+header {
+    background-size: auto auto;
+    display: flex;
+    flex-direction: row;
+    /* Direção dos itens */
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.4px solid rgba(255, 255, 255, 0.267);
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.dict_page {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#main_page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+}
+
+
+
+#titulo {
+    font-size: 64px;
+    color: white;
+    padding: 10px 0px;
+}
+
+#subtitulo {
+    font-size: 24px;
+    color: white;
+}
+
+input[type= "submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #EBD5C3;
+    cursor: pointer;
+    /* Mostra o cursor diferente ao selecionar */
+    box-shadow: 2px 4px 7px  rgba(0, 0, 0, 0.548);  
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+input[type= "submit"]:hover { 
+    background-color:#a39488 ;
+}
+
+#ballerini {    
+    /* Centralizar */
+    display: block;
+    margin: 0 auto;
+    /* Elementos */
+}
+
+#info {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin: 100px;
+}
+
+.text_info {    
+
+}
+
+.title_info {
+
+
+}
+footer {
+    border-top: 0.4px solid rgba(255, 255, 255, 0.233);
+    padding: 30px;
+}
